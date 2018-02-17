@@ -6,6 +6,7 @@ from gtts import gTTS
 KEY = "***input your google vision cloud key here***"
 
 #Notice we set the perameter "rb" instead of "r", since it read in byte, otherwise it reads in a code given by system default.
+#given an image
 img = open(r"C:\Users\Administrator\Pictures\honda.jpg", "rb")
 def encode_image(image):
   image_content = image.read()
